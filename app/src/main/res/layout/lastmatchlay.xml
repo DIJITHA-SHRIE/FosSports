@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="5dp"
+    android:layout_marginTop="3dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kicks"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:id="@+id/lastmatchkey">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="3"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/lastmatchvalue"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</layout>
